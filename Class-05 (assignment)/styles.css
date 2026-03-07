@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #000;
+}
+
+hr {
+    text-shadow: none;
+}
+
+div {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+form {
+    color: #fff;
+    background: linear-gradient(circle, #4facfe, #00f2fe);
+    padding: 10px;
+    text-align: center;
+    width: 24%;
+    border: 3px solid rgb(0, 153, 255);
+    border-radius: 10px;
+}
+
+
+button {
+    color: #fff;
+    width: 80px;
+    border: none;
+    padding: 10px;
+    border-radius: 40px;
+    transition: transfrorm 0.3s ease;
+}
+
+#submit {
+    background-color: #6fe13b;
+}
+
+#reset {
+    background-color: #e82222;
+}
+
+#pages {
+    background-color: #4facfe;
+    transition: transform, 0.3s, ease;
+}
+
+.button:hover {
+    color: black;
+    transform: scale(2);
+}
