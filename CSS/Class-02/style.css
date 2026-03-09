@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Playwrite+NZ+Guides&display=swap');
+
+@font-face {
+    font-family: PlaywriteNZguides;
+    src: url(assets/font/Playwrite_NZ_Guides/PlaywriteNZGuides-Regular.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: "PlaywriteCZ";
+    src: url(assets/font/static/PlaywriteCZ-Regular.ttf);
+}
+
+h1 {
+    font-family: "Bungee Spice", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h2 {
+    font-family: "PlaywriteNZGuides";
+}
+
+h3 {
+    font-family: "PlaywriteCZ";
+}
+
+p {
+    text-align: center;
+    background-color:aquamarine;
+    text-decoration: overline line-through underlinevc;
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    width: 100px;
+    height: 40px;
+    color: white;
+    background-color: rgb(0, 110, 255);
+    border: none;
+    border-radius: 100px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+
+    
+}
+
+button:hover {
+    background-color: #000;
+    color: white;
+}
+
+button:active {
+    box-sizing: border-box;
+    background-color: transparent;
+    border: 2px solid red;
+    color: black;
+}
